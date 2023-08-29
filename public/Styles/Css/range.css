@@ -1,0 +1,59 @@
+.contrange{
+    display: flex !important;
+   padding: 10px;
+    gap: 8px;
+}
+.positionLot{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: flex-start;
+}
+.LotNumerique{
+  display: flex !important;
+  flex-direction: column;
+  width: 40% !important;
+background-color: #e7b330c1;
+
+}
+.DivAutreDom{
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TitrGlobal{
+  display: flex;
+  flex-direction: column;
+
+}
+.EcriTitr{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.TitreDomaine{
+  width: 45%;
+}
+.range {
+  width: 200px;
+  height: 8px;
+  -webkit-appearance: none;
+  background: #111;
+  outline: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #009cfd;
+  cursor: pointer;
+  border: 4px solid #333;
+  box-shadow: -407px 0 0 400px #1eb0ff;
+}

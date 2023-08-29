@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}    
+    
+    
+    .clicfooter{
+    width: 95px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.textefooter{
+    color: black;
+    /* opacity: 50%; */
+    margin-top: 30px;
+}
+.contact{
+    margin-left: 390px;
+    margin-top: 40px;
+    
+  
+}
+.opp{
+    font-weight: normal;
+}
+body{
+   
+}
+/* .container_1{ */
+    
+        /* Ajouter box-sizing */
+        /* box-sizing : border-box;
+        border-radius:0px;
+        background-color:white;
+        opacity: 80%;
+        padding:0px;
+        width: 10%; */
+        /* redéfinition 400 + 2*20 */
+        
+        /* margin:0 auto;
+       left: 840px;
+       bottom: -1650px; */
+       
+      
+     /* .Formulaire  { */
+        /* color:white;
+       font-size: 30px; */
+      
+      .face3{
+        width: 55px;
+      }
+      .face2{
+        width: 40px;
+      }
+      .opp{
+        font-weight: bold;
+      }
+      .suivez{
+        font-weight: bold;
+      }
+      .form{
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 700px;
+        margin-bottom: 50px;
+      }
+      .mail{
+        width: 500px;
+      }
+      #subject{
+        margin-left: 0px;
+       width: 500px;
+      }
+      /* .parent{
+        display: flex;
+      } */
+      .form{
+        margin-top: 35px;
+        margin-left: 545px;
+      }
+      .tout{
+        margin-top: 10px;
+      }
+      .email{
+        margin-left: 5px;
+      }
+      @media (max-width: 575.98px) {
+        .textefooter{
+            justify-content: center;
+        }
+        .form{
+            margin-left: 0px;
+            margin-top: 500px;
+           
+        }
+        .mail{
+            width: 200px;
+        }
+        .contact{
+            margin-left: 30px;
+            margin-top: 40px;
+        }
+        #subject{
+            width:200px ;
+        }
+        
+      }
+      .Objectifs{
+       
+        margin-left: 380px;
+      }
+      .carre{
+        width: 300px;
+        
+      }
+      .forum{
+        color: yellow;
+        font-weight: bold;
+      }
+      .paragraphe{
+        font-size: small;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        margin: 5px;
+
+      }
+      .Temoignages{
+        margin-left: 290px;
+      }
+     
+      

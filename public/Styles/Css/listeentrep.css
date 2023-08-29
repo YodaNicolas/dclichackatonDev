@@ -1,0 +1,41 @@
+.ListeProfil {
+    padding: 8px;
+    overflow: scroll !important;
+    height: 500px;
+    gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.listeEntrep {
+    overflow: scroll !important;
+    height: 500px;
+    padding: 10px;
+    /* display: flex;
+flex-wrap: wrap;
+justify-content: space-between; */
+}
+
+.cardEntreprise {
+    margin-bottom: 20px !important;
+}
+
+.zoneRenseigneFiche {
+    height: 500px;
+    background-color: aqua;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.ligne {
+}
+
+.contenatInput {
+    background-color: red;
+    height: 48%;
+    width: 99%;
+}

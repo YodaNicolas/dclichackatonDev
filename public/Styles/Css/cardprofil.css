@@ -1,0 +1,95 @@
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+    gap: 5px;
+}
+.contenteDrop {
+    /* background-color: aqua; */
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 90%;
+    gap: 8px;
+}
+.zoneTrie {
+    /* background-color: rgb(28, 32, 32); */
+    display: flex;
+    align-items: center;
+    width: min-content;
+    gap: 8px;
+}
+.dropTri {
+    /* background-color: rgb(45, 22, 158); */
+    width: 130px !important;
+}
+
+/* PARTIE DES CARDS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+/* 
+       body{
+        background-color:#545454;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+       } */
+
+.cardProfil {
+    display: flex !important;
+    flex-direction: column;
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: #dfcbcb;
+    /* position: relative;*/
+    height: fit-content;
+}
+
+.upper {
+    height: 100px;
+}
+
+.upper img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.profile img {
+    height: 80px;
+    width: 80px;
+    margin-top: 2px;
+}
+
+.profile {
+    height: 90px;
+    width: 90px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+.follow {
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 35px;
+}
+.dL {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8px;
+    /* mt-4 px-4 */
+}
+.stats span {
+    font-size: 14px;
+}
